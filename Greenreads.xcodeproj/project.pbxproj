@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		6184848C228707140013F8FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6184848B228707140013F8FD /* AppDelegate.m */; };
-		6184848F228707140013F8FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6184848E228707140013F8FD /* ViewController.m */; };
+		6184848F228707140013F8FD /* GreenreadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6184848E228707140013F8FD /* GreenreadsViewController.m */; };
 		61848492228707140013F8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61848490228707140013F8FD /* Main.storyboard */; };
 		61848494228707160013F8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61848493228707160013F8FD /* Assets.xcassets */; };
 		61848497228707160013F8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61848495228707160013F8FD /* LaunchScreen.storyboard */; };
 		6184849A228707160013F8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61848499228707160013F8FD /* main.m */; };
+		618484A2228771E10013F8FD /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 618484A1228771E10013F8FD /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61848487228707140013F8FD /* Greenreads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greenreads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6184848A228707140013F8FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6184848B228707140013F8FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6184848D228707140013F8FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6184848E228707140013F8FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6184848D228707140013F8FD /* GreenreadsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenreadsViewController.h; sourceTree = "<group>"; };
+		6184848E228707140013F8FD /* GreenreadsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenreadsViewController.m; sourceTree = "<group>"; };
 		61848491228707140013F8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61848493228707160013F8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61848496228707160013F8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61848498228707160013F8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61848499228707160013F8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		618484A0228771E10013F8FD /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		618484A1228771E10013F8FD /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				6184848A228707140013F8FD /* AppDelegate.h */,
 				6184848B228707140013F8FD /* AppDelegate.m */,
-				6184848D228707140013F8FD /* ViewController.h */,
-				6184848E228707140013F8FD /* ViewController.m */,
+				6184848D228707140013F8FD /* GreenreadsViewController.h */,
+				6184848E228707140013F8FD /* GreenreadsViewController.m */,
 				61848490228707140013F8FD /* Main.storyboard */,
 				61848493228707160013F8FD /* Assets.xcassets */,
 				61848495228707160013F8FD /* LaunchScreen.storyboard */,
 				61848498228707160013F8FD /* Info.plist */,
 				61848499228707160013F8FD /* main.m */,
+				618484A0228771E10013F8FD /* Book.h */,
+				618484A1228771E10013F8FD /* Book.m */,
 			);
 			path = Greenreads;
 			sourceTree = "<group>";
@@ -141,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6184848F228707140013F8FD /* ViewController.m in Sources */,
+				618484A2228771E10013F8FD /* Book.m in Sources */,
+				6184848F228707140013F8FD /* GreenreadsViewController.m in Sources */,
 				6184849A228707160013F8FD /* main.m in Sources */,
 				6184848C228707140013F8FD /* AppDelegate.m in Sources */,
 			);
