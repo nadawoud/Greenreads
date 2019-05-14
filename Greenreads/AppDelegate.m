@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "GreenreadsViewController.h"
+@import Instabug;
 
 @interface AppDelegate ()
 
@@ -21,6 +22,8 @@
     self.window = UIWindow.new;
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: GreenreadsViewController.new];
+    
+    [Instabug startWithToken:@"293514698c50e26ca8a41a8e20ff21fc" invocationEvents: IBGInvocationEventShake | IBGInvocationEventScreenshot];
     
     return YES;
 }
